@@ -1,5 +1,5 @@
 # Tomcat is started to fetch Jolokia metrics from it
-FROM golang:1.8.3
+FROM golang:1.20
 
 COPY test/main.go main.go
 
